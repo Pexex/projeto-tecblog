@@ -1,0 +1,139 @@
+:root {
+    --yellow: #f7b600;
+    --white: white;
+    --logoCollor: #4e4e4e;
+    --gray: #ccc;
+    --lightGray: #d0cdcd;
+    --sideTitle: #565656;
+}
+
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/* Layout */
+#header-area {
+    background-color: var(--yellow);
+    padding: 15px;
+    text-align: center;
+}
+
+#tecblog-logo, #menu-area {
+    padding: 10px;
+}
+
+#main-area {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#content-area {
+    width: 650px;
+    float: left;
+    
+}
+
+#side-area {
+    width: 240px;
+    float: right;
+}
+
+.posts {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: var(--white);
+}
+
+.posts img {
+    width: 610px;
+}
+
+.side-content {
+    background: var(--white);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.side-post {
+    border-bottom: 1px dotted var(--gray);
+}
+
+#footer-area {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: var(--gray);
+}
+
+/* Formatação links */
+
+a {
+    text-decoration: none;
+}
+
+#menu-area a:link, #menu-area a:visited {
+    color: var(--white);
+    padding: 8px 12px;
+}
+
+#menu-area a:hover {
+    color: var(--yellow);
+    background: var(--white);
+}
+
+a:link,  a:visited {
+    color: var(--yellow);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Formatação geral */
+
+.logo {
+    color: var(--logoCollor);
+    font-size: 2.5em;
+}
+
+.white {
+    color: var(--white);
+}
+
+.posts h2 {
+    color: var(--yellow);
+}
+
+.post-date {
+    font-size: 0.8em;
+    border-bottom: 1px solid var(--lightgray);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.side-content h3 {
+    color: var(--sideTitle);
+    background: var(--gray);
+    padding: 5px;
+}
+
+.side-post p {
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+.side-content li{
+    list-style: none;
+}
+
